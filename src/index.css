@@ -126,3 +126,27 @@ button:focus-visible {
     max-width: 100%;
   }
 }
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #646cff;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(100,108,366,0.5);
+}
